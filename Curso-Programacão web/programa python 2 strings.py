@@ -6,5 +6,7 @@ mes = input("Digite o mês: ").title()
 ano = input("Digite o ano: ").title()
 
 
+
+
 txt = "{} nasceu no dia: {}/{}/{}"
 print(txt.format(nome,dia,mes,ano))
